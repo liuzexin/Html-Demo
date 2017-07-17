@@ -6,32 +6,42 @@ body{
 
     .list-api-content{
         width: 500px;
+        text-align: center;
         ul{
             list-style: none;
+            li{
+                margin-top: 15px;
+            }
+            li:hover{
+                marker: 15px;
+                    background: black;
+            }
+        }
+        .active-li{
+            background: red;
         }
         .list-api-left{
             float: left;
             width: 200px;
             height: 300px;
             overflow: hidden;
+            background: #CCCCCC;
         }
         .list-api-middle{
             margin-left: 200px;
             margin-right: 200px;
-            background: gray;
             height: 300px;
            button{
                width: 100px;
                height: 20px;
-               display: block;
            }
         }
         .list-api-right{
             float: right;
             width: 200px;
             height: 300px;
-            background: yellow;
             overflow: hidden;
+            background: #CCCCCC;
         }
     }
 }
