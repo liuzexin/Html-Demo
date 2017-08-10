@@ -35,5 +35,16 @@
 		
 		<script src="lib/jquery-3.2.1.js"></script>
 		<script src="js/exchange.js"></script>
+		<script>
+			function test(){
+				var value = "test";
+				function test2(){
+					alert(this.value);
+					alert(this);
+				}
+				test2();
+			}
+			test();
+		</script>
 	</body>
 </html>
